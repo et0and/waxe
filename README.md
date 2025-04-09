@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This is no longer maintained and has been archived. Project is gradually being rewritten and now lives at [github.com/yufugumi/waxe](https://github.com/yufugumi/waxe).
+
 # Wellington Axe Runners (WAXE)
 
 This is a series of Python scripts run as cron jobs via GitHub Actions. Set to run at the start of every month, Playwright and axe-core will test [wellington.govt.nz](https://wellington.govt.nz), [letstalk.wellington.govt.nz](https://letstalk.wellington.govt.nz), [archivesonline.wcc.govt.nz](https://archivesonline.wcc.govt.nz) and various other Wellington City Council websites on the services.wellington.govt.nz subdomain for common accessibility issues. It records these errors in a CSV for each website, which is then added to a release on GitHub.
